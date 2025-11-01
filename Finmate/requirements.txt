@@ -1,0 +1,35 @@
+# Core dependencies
+torch>=2.2.0
+transformers>=4.44.0
+datasets>=3.0.0
+sentencepiece>=0.2.0
+protobuf>=4.25.0
+
+# Data processing
+pandas>=2.2.0
+numpy>=1.26.0
+scikit-learn>=1.5.0
+tqdm>=4.66.0
+nltk>=3.9.0
+
+# Model training utilities
+accelerate>=0.34.0
+evaluate>=0.4.2
+
+# Cloud integration (Supabase)
+supabase-py>=2.3.4
+requests>=2.32.0
+python-dotenv>=1.0.1
+
+# FastAPI backend for serving model
+fastapi>=0.111.0
+uvicorn>=0.30.0
+pydantic>=2.9.0
+
+# Local development
+jupyter>=1.0.0
+notebook>=7.2.0
+
+# Frontend build tools (for API serving React build)
+aiofiles>=24.1.0
+python-multipart>=0.0.9
